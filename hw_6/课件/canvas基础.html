@@ -1,0 +1,117 @@
+<!-- /// <reference path="./node_modules/@types/three/index.d.ts" /> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript"  src="js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+	<div class="cBox">	
+		<canvas id="canvas" style="border: 1px solid gray ;display: block;margin:0 auto">
+			当前浏览器不支持canvas
+		</canvas>
+		</div>
+<script>
+
+
+	var canvas=document.getElementById("canvas");//JavaScript 使用 id 来获取canvas元素:
+	canvas.width=1366;
+	canvas.height=700; 
+	//不建议用css设置宽高(默认300*150的,css设置宽高画布会被拉伸)
+	if(canvas.getContext("2d"))
+	{
+		var context=canvas.getContext("2d")
+		//canvas.getContext("2d")，调用一个canvas对象的getContext()方法，传入的参数是2d
+		//获得的一个“绘图环境”对象上并保存在变量中，利用这个接口去绘制路径、矩形、圆形、字符以及添加图像。
+	}
+	else{
+		alert("当前浏览器不支持canvas")
+	}
+	// //状态
+	// context.moveTo(100,100);
+	// context.lineTo(700,700);
+	// context.lineWidth=50;	
+	// context.lineCap="round";
+	// //square
+	// // //实现
+	// context.stroke();
+
+
+	//空心多边形
+	//状态
+	// context.moveTo(100,100);
+	// context.lineTo(700,700);
+	// context.lineTo(700,100);
+	// context.lineTo(100,100);
+	// context.lineWidth=5;	
+	// context.strokeStyle="red";
+	// context.fillStyle="blue";
+	// //实现
+	// context.stroke();
+	// context.fill();
+
+	//实心多边形
+		//状态
+		// context.moveTo(100,100);
+		// context.lineTo(700,700);
+		// context.lineTo(700,100);
+		// context.lineTo(100,100);
+		// context.lineWidth=5;
+		// context.strokeStyle="blue"
+		// context.fillStyle="black"
+		// //实现
+		// context.fill();
+		// context.stroke();
+		
+		//fill和stroke顺序区别（先填充后描边和先描边后填充对于线条较粗时的区别）
+		
+	// let x=100,y=100,width=300,height=200;
+	// context.rect(x,y,width,height);
+	// context.strokeRect(x,y,width,height);
+
+	// // context.stroke();
+	// context.fillStyle="red";
+	// context.fillRect(x,y,width,height);
+
+
+
+	// //两条线段（不带路径判断）
+	// 	context.moveTo(100,100);
+	// 	context.lineTo(700,700);
+	// 	context.strokeStyle="red"
+	// 	context.stroke();
+	// 	context.moveTo(700,100);
+	// 	context.lineTo(100,700);
+	// 	context.strokeStyle="yellow"
+	// 	context.stroke();
+
+
+	// //两条线段（带路径判断,分割状态）
+	// 	context.beginPath();
+	// 	context.moveTo(100,100);
+	// 	context.lineTo(700,700);
+	// 	context.strokeStyle="red"
+	// 	context.closePath(); 
+	// 	context.stroke();
+	// 	context.beginPath();
+	// //会重新开始线条
+	// 	context.moveTo(700,100);
+	// 	context.lineTo(100,700);
+	// 	context.strokeStyle="blue"
+	// 	context.closePath();
+	// //会默认将线条封闭关闭
+	// 	context.stroke();
+
+	// 弧线
+	context.beginPath();
+	context.arc(300,300,200,0,1.5*Math.PI,false);
+	//false为是否为逆时针绘制，默认为false，无论其值为false还是true，弧度相对坐标是不变的
+	context.stroke();
+	context.fill();
+
+
+	
+</script>	
+</body>
+</html>

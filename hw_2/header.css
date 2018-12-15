@@ -1,0 +1,87 @@
+#header{
+    height: 96px;
+    float: left;
+    width: 100%;
+    z-index: 999;
+}
+#header .top{
+    height: 44px;
+    background: black;
+    opacity: 0.75;
+}
+#header .top .navi{
+    position: relative;
+    width: 1024px;
+    margin: 0 auto;
+}
+#header .top .navi ul{
+    margin: 0;
+    height: 44px;
+}
+#header .top .navi .set_li{
+    /*display: inline-block;*/
+    float: left;
+    vertical-align: middle;
+    list-style: none;
+    height: 44px;
+    line-height: 40px;
+    box-sizing: border-box;
+    width: 10%;
+}
+#header .top .navi .set_li a {
+    margin:0 25%;
+}
+
+#header .top .navi li:hover{
+    opacity: 0.75;
+    cursor: pointer;
+}
+#header .top .navi li a{
+    text-decoration: none;
+    margin-top: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+#header .bottom{
+    height: 52px;
+    text-align: center;
+}
+#header .bottom .content{
+    width: 1024px;
+    margin: 0 auto;
+}
+#header .bottom .content .left{
+    float: left;
+    line-height: 54px;
+    font-size: 24px;
+    margin-left: 10px;
+}
+#header .bottom .content .right{
+    line-height: 64px;
+    float: right;
+    font-size: 12px;
+    margin-right: 10px;
+}
+#header .bottom .right span{
+    margin: 0 10px;
+}
+#header .top .show{
+    width: 17px;
+    height: 44px;
+    display: none;
+    position: relative;
+}
+#header .top .show div{
+    width: 17px;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    top: 38%;
+}
+/*#header .top .menu:after{*/
+    /*width: 17px;*/
+    /*height: 1px;*/
+    /*background: red;*/
+    /*position: absolute;*/
+    /*top: 61%;*/
+/*}*/

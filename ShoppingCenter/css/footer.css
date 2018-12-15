@@ -1,0 +1,66 @@
+#footer{
+    width: 100%;
+    background: #eae9e7;
+}
+#footer .container{
+    width: 79%;
+    margin: 97px auto 0;
+    text-align: center;
+}
+#footer .container .title{
+    width: 514px;
+    height: 65px;
+    margin: 0 auto;
+    padding: 103px 0 79px;
+}
+#footer .container .textBox{
+    width: 848px;
+    height: 74px;
+    position: relative;
+    margin: 0 auto;
+}
+#footer .container .textBox .sel{
+    position: relative;
+}
+#footer .container .textBox .sel input{
+    width: 372px;
+    height: 74px;
+    border-radius: 15px;
+    outline: none;
+    border:0;
+}
+#footer .container .textBox .left{
+    float: left;
+}
+#footer .container .textBox .right{
+    float: right;
+}
+#footer .container .textBox .sel .footer_button{
+    position: absolute;
+    width: 108px;
+    height: 39px;
+    background: #861111;
+    border-radius: 10px;
+    top: 20px;
+    left: 255px;
+    cursor: pointer;
+    visibility: hidden;
+}
+#footer .container .list{
+    float: left;
+    width: 25%;
+}
+#footer .container .list li{
+    cursor: pointer;
+}
+#footer .container .list li:hover{
+    text-decoration: underline;
+}
+#footer .container .list li{
+    list-style: none;
+    text-align: left;
+}
+#footer .container .list_container{
+    padding: 137px 0 159px 0;
+    margin-left: 123px;
+}

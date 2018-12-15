@@ -1,0 +1,443 @@
+
+#container {
+    width: 100%;
+}
+#container .back{
+    width: 100%;
+    background: url(ImageSources/hero-banner-homepage.image.large_2x.jpg) no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+    position: relative;
+    z-index: -1;
+    padding-top: 1px;
+    min-height: 680px;
+}
+#container .search_area {
+    width: 61.25rem;
+    margin: 0 auto;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#container .search_area .content .title{
+    text-align: center;
+}
+#container .search_area .content .title p{
+    padding: 4px 0;
+}
+#container .search_area .content .title .head{
+    font-size: 48px;
+    font-family: PingFang SC;
+}
+#container .search_area .content .title .body{
+    font-size: 22px
+}
+#container .search_area .content .search{
+    text-align: center;
+}
+#container .search_area .content .search img{
+    float: right;
+    position: absolute;
+    left: 81.4%;
+    top: 33%;
+}
+#container .search_area .content .search input{
+    border: 1px solid #dedede;
+    border-radius: 3px;
+    height: 52px;
+    line-height: 34px;
+    padding-left: 50px;
+    width: 654px;
+    font-size: 22px;
+}
+#container .search_area .content{
+    padding-top: 6rem;
+}
+#container .search_area .content div{
+    margin: 32px 0;
+}
+
+#container .part_1 .menu{
+    width: 1028px;
+    margin: 0 auto;
+}
+#container .part_1 .part{
+    float: left;
+}
+#container .part_1 .menu .sel{
+    float: left;
+    margin: 60px 48px;
+    text-align: center;
+}
+#container .part_1 .menu .special{
+    width: 68px;
+}
+#container .part_1 .menu .sel a{
+    text-decoration: none;
+    color: black;
+    line-height: 26px;
+    font-weight: 400;
+}
+#container .part_1 .menu .sel:hover a span{
+    text-decoration: underline;
+}
+#container .part_1 .menu .sel a img{
+    width: 68px;
+    height: 68px;
+}
+
+/* part2 */
+#container .part_2{
+    height: 68px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    position: relative;
+}
+#container .part_2 .content{
+    cursor: pointer;
+    margin-top: 1rem;
+}
+#container .part_2 .content a{
+    text-decoration: none;
+    color: #0070C9;
+    font-size: 1rem;
+    line-height: 34px;
+}
+#container .part_3 .content{
+    text-align: center;
+    position: relative;
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+}
+#container .part_3 .content img{
+    width: 400px;
+}
+#container .part_3 .content .para{
+    display: inline-block;
+    margin-top: -1rem;
+    vertical-align: top;
+    width: 25rem;
+    text-align: left;
+}
+#container .part_3 .content .para .element{
+    margin: 1rem 0;
+    position: relative;
+}
+#container .part_3 .content .para p{
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+    margin-bottom: 0.25rem;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+#container .part_3 .content .para h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: .28rem;
+}
+#container .part_3 .content .para a{
+    text-decoration: none;
+    color: #0070C9;
+    font-size: 1.3rem;
+    font-weight: 300;
+    vertical-align: top;
+}
+#container .part_4{
+    width: 1024px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+#container .part_4 .element{
+    width: 447px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 30px 0 30px 56px;
+}
+#container .part_4 .element img{
+    width: 375px;
+}
+#container .part_4 .element .para{
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 400;
+}
+#container .part_4 .element .para h2{
+    font-weight: 500;
+}
+#container .part_4 .element .para p{
+    margin-bottom: 0.25rem;
+    font-size: 14px;
+    padding: 10px 0;
+    line-height: 28px;
+}
+#container .part_4 .element a{
+    text-decoration: none;
+    color: #0070C9;
+    vertical-align: top;
+}
+#container .part_4 .element .para p span{
+    color: #0070C9;
+}
+#container .part_4 .element .para p span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#container .part_4 .element .para a span:hover{
+    text-decoration: underline;
+}
+#container .part_5{
+    text-align: center;
+}
+#container .part_5 .content{
+    width: 1024px;
+    min-width: 320px;
+    text-align: center;
+    display: inline-block;
+    margin: 1.5rem 0;
+    padding-bottom: 0.5rem;
+}
+#container .part_4 .content h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin: 2rem 0;
+}
+
+#container .part_5 .content p{
+    font-size: 1rem;
+    padding: 0.25rem 0;
+    line-height: 30px;
+}
+#container .part_5 .content p span{
+    color: #0070C9;
+}
+#container .part_5 .content p span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#container .part_6{
+    width: 100%;
+    background: url(ImageSources/today-at-apple-workshop-banner.image.large_2x.jpg) no-repeat center 30%;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+    padding-top: 1px;
+    max-height: 516px;
+    height: 516px;
+}
+#container .part_6{
+    position: relative;
+}
+#container .part_6 .content{
+    color: white;
+    position: relative;
+    width:100%;
+    height:100%;
+}
+#container .part_6 .content .container {
+    position: absolute;
+    left: 20%;
+    top: 28%;
+}
+#container .part_6 .content .container .part6_sel{
+    margin: 15px 0;
+}
+#container .part_6 .content .head{
+    width: 330px;
+}
+#container .part_6 .content .head h2{
+    font-weight: 400;
+    font-size: 40px;
+}
+#container .part_6 .content .bottom{
+    width: 330px;
+}
+#container .part_6 .content .bottom p{
+    padding-bottom: 0.5rem;
+    line-height: 28px;
+
+}
+#container .part_6 .content .bottom a{
+    text-decoration: none;
+    color: #0070C9;
+    font-size: 17px;
+    line-height: 28px;
+}
+#container .part_6 .content .bottom a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#container .part_7{
+    text-align: center;
+    position: relative;
+}
+#container .part_7 .content{
+    width: 1024px;
+    margin: 0 auto;
+}
+#container .part_7 .part{
+    vertical-align: top;
+}
+#container .part_7 .para{
+    text-align: left;
+    float: left;
+    margin-left: 20px;
+}
+#container .part_7 .para div{
+    margin: 1rem 0;
+}
+#container .part_7 .para .top{
+    font-size: 18px;
+    font-weight: 500;
+}
+#container .part_7 .para .middle{
+    font-size: 1rem;
+}
+#container .part_7 .image{
+    display: inline-block;
+    margin: 25px 0;
+}
+#container .part_7 .image img{
+    width: 150px;
+}
+#container .part_7 .para  .bottom a{
+    text-decoration: none;
+    color: #0070C9;
+}
+#container .part_7 .para .bottom a:hover{
+    text-decoration: underline;
+}
+#container .part_8{
+    text-align: center;
+}
+#container .part_8 .content{
+    margin: 2rem 0 3rem 0;
+}
+#container .part_8 .content div{
+    margin: 1rem 0;
+}
+#container .part_8 .content .top h3{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+#container .part_8 .content .bottom a{
+    text-decoration: none;
+    color: #0070C9;
+    font-size: 1rem;
+    font-weight: 400;
+}
+#container .part_8 .content .bottom a:hover{
+    text-decoration: underline;
+}
+#container .part_9{
+    text-align: center;
+}
+#container .part_9 .content{
+    margin: 3rem 0;
+}
+#container .part_9 .content div{
+    margin: 10px 0;
+}
+#container .part_9 .content .top{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+#container .part_9 .content .top h2{
+    font-weight: 500;
+    margin: 0;
+}
+#container .part_9 .content .bottom a{
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #0070C9;
+}
+#container .part_9 .content .bottom a:hover{
+    text-decoration: underline;
+}
+#container .part_10{
+    text-align: center;
+}
+#container .part_10 .content{
+    margin: 2rem 0 4rem 0;
+}
+#container .part_10 h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#container .part_10 div{
+    margin: 1rem 0;
+}
+#container .part_10 div a{
+    color: #0070C9;
+    text-decoration: none;
+}
+#container .part_10 div a:hover{
+    text-decoration: underline;
+}
+#footer{
+    background: #f2f2f2;
+    text-align: center;
+    position: relative;
+}
+#footer .content{
+    width: 1024px;
+    margin: 0 auto;
+}
+#footer .content .top{
+    padding: 1rem 0;
+    text-align: left;
+}
+#footer .content .top .icon{
+    width: 14px;
+    height: 17px;
+    background: url(ImageSources/icon_large.svg) no-repeat;
+    display: inline-block;
+}
+#footer .content .middle{
+    text-align: left;
+}
+#footer .content .middle .sel{
+    float: left;
+    vertical-align: top;
+    /*padding: 0 3rem;*/
+    padding-right: 8rem;
+    position: relative;
+}
+#footer .content .middle .sel ul{
+    list-style: none;
+}
+#footer .content .middle .sel li{
+    padding: 0.3rem 0;
+}
+#footer .content .middle .sel a{
+    color: rgb(102, 102, 102);
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+#footer .content .bottom{
+    text-align: left;
+    padding-bottom: 2rem;
+}
+#footer .content .bottom span{
+    color: rgb(136, 136, 136);
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem 0 0;
+}
+#footer .content .bottom .option a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-size: 0.6rem;
+}
+#footer .content .bottom_line{
+    height: 1px;
+    width: 100%;
+    background-color: grey;
+    margin: 0 auto;
+    opacity: 0.4;
+}

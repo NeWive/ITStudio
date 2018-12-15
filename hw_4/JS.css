@@ -1,0 +1,14 @@
+.check {
+    display: inline-block;
+}
+.tips{
+   color: red;
+    font-size: 12px;
+}
+.circle{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    vertical-align: top;
+    display: none;
+}

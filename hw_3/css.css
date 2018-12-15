@@ -1,0 +1,135 @@
+.clearfix { *zoom:1; }
+.clearfix:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+._1{
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+.ball{
+    /*width: 50px;*/
+    /*height: 50px;*/
+    float: left;
+    background: red;
+    border-radius: 100%;
+    /*width: 50px;*/
+    /*height: 50px;*/
+}
+.ball_1{
+    width: 50px;
+    height: 50px;
+    animation: ball 1s infinite alternate;
+    opacity: 0;
+}
+.ball_2{
+    width: 50px;
+    height: 50px;
+    animation: ball 1s infinite alternate;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+.ball_3{
+    width: 50px;
+    height: 50px;
+    animation: ball 1s infinite 1s alternate;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+
+@keyframes ball{
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+._2{
+    width: 100%;
+    height: 300px;
+    background: green;
+    position: relative;
+}
+._2 .arrow{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: white;
+    margin-left: -100px;
+    top: 170px;
+    transition: margin-left 1s;
+}
+._2:hover .arrow{
+    margin-left: 0;
+}
+._2 .arrow .left{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px;
+    border-color: transparent black transparent transparent;
+    position: absolute;
+    top: 20px;
+}
+._2 .arrow .right{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px;
+    border-color: transparent white transparent transparent;
+    position: absolute;
+    left: 1px;
+    top: 20px;
+}
+._2 .img{
+    width: 200px;
+    height: 200px;
+    background: url(1.jpg) no-repeat;
+    background-position: center 40%;
+    background-size: 400px 200px;
+    position: relative;
+    margin: auto;
+    transition: background-size 1s;
+}
+._2 .img:hover{
+    background-size: 800px 400px;
+}
+._2 .img:hover .circle{
+    opacity: 0.8;
+}
+._2 .img .circle{
+    width: 50px;
+    height: 50px;
+    background: white;
+    opacity:0;
+    transition: opacity 1s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    border-radius: 100%;
+}
+._2 .img .circle .tri{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px;
+    border-color: transparent transparent transparent black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -7px;
+    margin-top: -18px;
+}

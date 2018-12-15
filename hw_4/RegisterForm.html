@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="JS.css">
+    <!--<script type="text/javascript">-->
+        <!--window.onload= function(){-->
+            <!--var realName = document.getElementById('realName');-->
+            <!--function checkRealName(){-->
+                <!--var reg = new RegExp("^.{0,7}$");-->
+                <!--var circle = (document.getElementsByClassName('circle'))[0];-->
+                <!--var tips = (document.getElementsByClassName("tips"))[0];-->
+                <!--if(realName.value === ""){-->
+                    <!--circle.style.display="inline-block";-->
+                    <!--circle.style.backgroundColor="red";-->
+                    <!--tips.innerHTML = "姓名为空";-->
+                    <!--tips.style.display = "inline-block";-->
+                    <!--return false;-->
+                <!--}else if(!reg.test(realName.value)){-->
+                    <!--circle.style.display="inline-block";-->
+                    <!--circle.style.backgroundColor="red";-->
+                    <!--realName.value="";-->
+                    <!--tips.innerHTML = "格式不正确，最长为7个字";-->
+                    <!--tips.style.display = "inline-block";-->
+                    <!--return false;-->
+                <!--}else{-->
+                    <!--circle.style.backgroundColor="green";-->
+                    <!--circle.style.display="inline-block";-->
+                    <!--tips.style.display = "none";-->
+                    <!--return true;-->
+                <!--}-->
+            <!--}-->
+
+            <!--var grade = document.getElementById('grade');-->
+            <!--function checkGrade(){-->
+                <!--var circle = (document.getElementsByClassName('circle'))[1];-->
+                <!--var tips = (document.getElementsByClassName("tips"))[1];-->
+                <!--var reg = new RegExp("^201[0-4]{1}$");-->
+                <!--if(grade.value === ""){-->
+                    <!--circle.style.display="inline-block";-->
+                    <!--circle.style.backgroundColor="red";-->
+                    <!--tips.innerHTML = "年级为空";-->
+                    <!--tips.style.display = "inline-block";-->
+                    <!--return false;-->
+                <!--}else if(!reg.test(grade.value)){-->
+                    <!--circle.style.display="inline-block";-->
+                    <!--circle.style.backgroundColor="red";-->
+                    <!--tips.innerHTML = "格式不正确或年级不符合要求，只限2010-2014级";-->
+                    <!--tips.style.display = "inline-block";-->
+                    <!--grade.value="";-->
+                    <!--return false;-->
+                <!--}else{-->
+                    <!--circle.style.backgroundColor="green";-->
+                    <!--circle.style.display="inline-block";-->
+                    <!--tips.style.display="none";-->
+                    <!--return true;-->
+                <!--}-->
+            <!--}-->
+
+            <!--var phoneNumber = document.getElementById('phoneNumber');-->
+            <!--function checkPhoneNumber(){-->
+                <!--var reg = new RegExp("^[1-9][0-9]{10}$");-->
+                <!--var circle = (document.getElementsByClassName('circle'))[2];-->
+                <!--var tips = (document.getElementsByClassName("tips"))[2];-->
+                <!--if(phoneNumber.value === ""){-->
+                    <!--circle.style.display="inline-block";-->
+                    <!--circle.style.backgroundColor="red";-->
+                    <!--tips.innerHTML = "手机号码为空";-->
+                    <!--tips.style.display = "inline-block";-->
+                    <!--return false;-->
+                <!--}else if(!reg.test(phoneNumber.value)){-->
+                    <!--circle.style.display="inline-block";-->
+                    <!--circle.style.backgroundColor="red";-->
+                    <!--tips.innerHTML = "手机号码格式不正确";-->
+                    <!--tips.style.display = "inline-block";-->
+                    <!--phoneNumber.value="";-->
+                    <!--return false;-->
+                <!--}else{-->
+                    <!--circle.style.backgroundColor="green";-->
+                    <!--circle.style.display="inline-block";-->
+                    <!--tips.style.display="none";-->
+                    <!--return true;-->
+                <!--}-->
+            <!--}-->
+
+            <!--var email = document.getElementById('e-mail');-->
+            <!--function checkEmail() {-->
+                <!--var circle = (document.getElementsByClassName('circle'))[3];-->
+                <!--var tips = (document.getElementsByClassName("tips"))[3];-->
+                <!--var reg = new RegExp("^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$"); //正则表达式-->
+                <!--if(email.value === ""){-->
+                    <!--circle.style.display = "inline-block";-->
+                    <!--circle.style.backgroundColor = "red";-->
+                    <!--tips.innerHTML = "邮箱为空";-->
+                    <!--tips.style.display = "inline-block";-->
+                    <!--return false;-->
+                <!--}else if(!reg.test(email.value)){-->
+                    <!--circle.style.display = "inline-block";-->
+                    <!--circle.style.backgroundColor = "red";-->
+                    <!--tips.innerHTML = "邮箱格式不正确";-->
+                    <!--tips.style.display = "inline-block";-->
+                    <!--email.value="";-->
+                    <!--return false;-->
+                <!--}else{-->
+                    <!--circle.style.backgroundColor = "green";-->
+                    <!--circle.style.display = "inline-block";-->
+                    <!--tips.style.display="none";-->
+                    <!--return true;-->
+                <!--}-->
+            <!--}-->
+
+            <!--var introduction = document.getElementById('introduction');-->
+            <!--function checkIntroduction(){-->
+                <!--var circle = (document.getElementsByClassName('circle'))[4];-->
+                <!--var tips = (document.getElementsByClassName("tips"))[4];-->
+                <!--if(introduction.value == ""){-->
+                    <!--circle.style.display="inline-block";-->
+                    <!--circle.style.backgroundColor="red";-->
+                    <!--tips.innerHTML = "自我介绍为空";-->
+                    <!--tips.style.display = "inline-block";-->
+                    <!--return false;-->
+                <!--}else{-->
+                    <!--circle.style.backgroundColor="green";-->
+                    <!--circle.style.display="inline-block";-->
+                    <!--tips.style.display="none";-->
+                    <!--return true;-->
+                <!--}-->
+            <!--}-->
+            <!--var submit = document.getElementById("submit");-->
+            <!--var check = submit.onclick = function(){-->
+                <!--var result = new Array(5);-->
+                <!--result[0] = checkEmail();-->
+                <!--result[1] = checkGrade();-->
+                <!--result[2] = checkIntroduction();-->
+                <!--result[3] = checkPhoneNumber();-->
+                <!--result[4] = checkRealName();-->
+                <!--if(result[0] == false || result[1] == false || result[2] == false || result[3] == false || result[4] == false){-->
+                    <!--alert('存在未完成填写的信息');-->
+                <!--}else{-->
+                    <!--self.location = "jumpover.html";-->
+                <!--}-->
+            <!--}-->
+        <!--}-->
+    <!--</script>-->
+
+    <!--<script async="async" src = "OperationOfForm.js" type="text/javascript"></script>-->
+    <script>
+        function loadjs(script_filename) {
+            var script = document.createElement('script');
+            script.setAttribute('type', 'text/javascript');
+            script.setAttribute('src', script_filename);
+            script.setAttribute('id', 'coolshell_script_id');
+            script_id = document.getElementById('coolshell_script_id');
+            if(script_id){
+                document.getElementsByTagName('head')[0].removeChild(script_id);
+            }
+            document.getElementsByTagName('head')[0].appendChild(script);
+        }
+        function load() {
+            var script = 'OperationOfForm.js';
+            loadjs(script);
+        }
+        window.onload = load();
+    </script>
+</head>
+<body>
+<form action="" name="register">
+    <div>
+        <span>姓名：</span>
+        <input type="text" name="realName" id="realName">
+        <div class="check">
+            <div class="circle"></div>
+            <span class="tips">* 姓名不能超过7个字</span>
+        </div>
+    </div>
+    <div>
+        <span>年级：</span>
+        <!--<select name="grade">-->
+            <!--<option value="">2010</option>-->
+            <!--<option value="">2011</option>-->
+            <!--<option value="">2012</option>-->
+            <!--<option value="">2013</option>-->
+            <!--<option value="">2014</option>-->
+        <!--</select>-->
+        <input type="text" name="grade" id="grade">
+        <div class="check">
+            <div class="circle"></div>
+            <span class="tips">* 只允许2010--2014级</span>
+        </div>
+    </div>
+    <div>
+        <span>手机：</span>
+        <input type="text" name="phoneNumber" id="phoneNumber">
+        <div class="check">
+            <div class="circle"></div>
+            <span class="tips">* 请输入规格正确的的手机号码</span>
+        </div>
+    </div>
+    <div>
+        <span>邮箱：</span>
+        <input type="text" name="e-mail" id="e-mail">
+        <div class="check">
+            <div class="circle"></div>
+            <span class="tips">* 请输入规格正确的邮箱</span>
+        </div>
+    </div>
+    <div>
+        <div>自我介绍：</div>
+        <textarea id="introduction" name="introduction" cols="50" rows="10" maxlength="100"></textarea>
+        <div>
+            <div class="circle"></div>
+            <span class="tips">* 自我介绍不能超过100字</span>
+        </div>
+    </div>
+    <button id="submit" type="button">提交</button>
+</form>
+</body>
+<!--<script src = "OperationOfForm.js" type="text/javascript"></script>-->
+</html>

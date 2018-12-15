@@ -1,0 +1,183 @@
+@media screen and (max-width: 768px) {
+    #header .top .navi{
+        margin: 0;
+    }
+    #header .top .navi .hiding{
+        display: none;
+    }
+    #header .top .navi .show{
+        display: block;
+        float: left;
+    }
+    #header .top .navi .right{
+        float: right;
+    }
+    #header .top #center{
+
+    }
+    #header .top .navi .set_li {
+        width: 33%;
+    }
+    #header .top .navi .set_li img{
+        margin: 0 35%;
+    }
+    #header .top .navi #right img{
+         margin: 0 0 0 94%;
+     }
+    #header .top .navi #center img{
+        margin: 0 0 0 50%;
+    }
+    #header .top #right{
+        margin: 0;
+    }
+    #header .top .navi{
+        width: 98%;
+        margin: 0 auto;
+    }
+    .line{
+        width: 100%;
+    }
+    #header .bottom .content{
+        width: 100%;
+        min-height: 500px;
+    }
+    #container .search_area {
+        width: 40rem;
+    }
+    #container .search_area .content .search img{
+        float: right;
+        position: absolute;
+        left: 9.4%;
+        top: 28%;
+    }
+    #container .search_area .content .search input{
+        height: 40px;
+        width: 500px;
+        font-size: 18px;
+    }
+    #container .search_area .content{
+        padding-top: 8rem;
+    }
+    #container .search_area .content .title .head{
+        font-size: 36px;
+    }
+    #container .search_area .content .title .body{
+        font-size: 18px
+    }
+    #container .search_area .content div{
+        margin: 2rem 0;
+    }
+    #container .back{
+        min-height: 600px;
+    }
+    .point{
+        clear: left;
+    }
+    #container .part_1 .menu{
+
+        width: 90%;
+        min-width: 620px;
+
+    }
+    #container .part_1 .menu .sel{
+        margin: 25px 74px;
+    }
+    .point_1069{
+        clear: left;
+    }
+    #container .part_3 .content .para{
+        display: block;
+        width: 692px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #container .part_4{
+        width: 100%;
+    }
+    #container .part_4 .element img{
+        width: 240px;
+    }
+    #container .part_4 .container{
+        margin: 30px 0;
+    }
+    #container .part_4 .element{
+        display: block;
+        width: 640px;
+        margin: 45px auto;
+    }
+    #container .part_4 .element .image{
+        float: left;
+        margin-right: 28px;
+    }
+    #container .part_4 .element .para{
+        width: 576px;
+        margin-left: 10px;
+    }
+    #container .part_5 .content{
+        width: 736px;
+        min-width: 320px;
+        text-align: center;
+        display: inline-block;
+        margin: 1.5rem 0;
+        padding-bottom: 0.5rem;
+    }
+    #container .part_6{
+        position: relative;
+    }
+    #container .part_6 .content{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    #container .part_6 .content .container{
+        top: 34%;
+        left: 5%;
+    }
+
+    #container .part_6 .content .head{
+        font-size: 34px;
+    }
+    #container .part_6 .content .bottom{
+        font-size: 17px;
+    }
+    #container .part_7 .image img{
+        display: none;
+    }
+    #container .part_7 .content{
+        width: 80%;
+        margin: 20px 10%;
+    }
+    #footer .middle{
+        margin: 0 0 30px 0;
+    }
+    #footer .content{
+        width: 90%;
+        margin: 0 3%;
+        padding-left: 3%;
+    }
+    #footer .content .middle h5{
+        margin: 10px 0;
+    }
+    #footer .content .middle .top_sel{
+        border-top: 1px solid grey;
+    }
+    #footer .content .middle .sel{
+        float: none;
+        border-bottom: 1px grey solid;
+    }
+    #footer .content .middle .sel ul{
+        display: none;
+    }
+    #footer .content .bottom_line{
+        display: none;
+    }
+    #footer .bottom .copyright{
+        display: block;
+    }
+    #footer .middle .sel .plus{
+        display: inline-block;
+    }
+    #footer .middle .sel h5{
+        display: inline-block;
+    }
+}

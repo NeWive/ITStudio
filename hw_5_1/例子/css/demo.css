@@ -1,0 +1,30 @@
+#first {
+	overflow: hidden;
+	width: 500px;
+	height: 500px;
+	cursor: pointer;
+	background:#999;
+	float: left;
+}
+
+.second {
+	width: 400px;
+	height: 100px;
+	margin: 10px auto;
+	border: 1px solid black;
+}
+
+#third {
+	width: 500px;
+	height: 500px;
+	background: #999;
+	float: left;
+	margin-left: 20px;
+}
+
+#third img{
+	width: 250px;
+	height: 250px;
+	margin: 0px;
+	float: left;
+}

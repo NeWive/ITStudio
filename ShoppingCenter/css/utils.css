@@ -1,0 +1,241 @@
+.title_font{
+    font-family: MicrosoftYaHei;
+    font-size: 23px;
+    color: #272526;
+    line-height: 18px;
+
+}
+
+.clearfix:after{
+    content: "020"; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;  
+}
+  
+  .clearfix {
+    /* 触发 hasLayout */ 
+    zoom: 1; 
+}
+
+.arrow{
+    height:0;
+    width:0;
+    border-top:solid 10px #272526;
+    border-left:solid 10px transparent;
+    border-right:solid 10px transparent;
+    border-bottom:solid 10px transparent;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: 2px;
+}
+
+.banner_font{
+    font-size: 60px;
+    font-family: Berylium;
+    letter-spacing: 3px;
+    color: #272526;
+}
+.banner_para_font{
+    font-family: MicrosoftYaHei;
+    font-size: 30px;
+    color: #272526;
+}
+.banner_downArrow{
+    height:0;
+    width:0;
+    border-top:solid 50px black;
+    border-left:solid 50px transparent;
+    border-right:solid 50px transparent;
+    border-bottom:solid 50px transparent;
+    position: absolute;
+    top: 14px;
+    left: 152px;
+    visibility: hidden;
+}
+.banner_downArrow::after{
+    content: " ";
+    height:0;
+    width:0;
+    border-top:solid 50px rgb(236,232,229);
+    border-left:solid 50px transparent;
+    border-right:solid 50px transparent;
+    border-bottom:solid 50px transparent;
+    position: absolute;
+    left: -50px;
+    top: -57px;
+}
+
+.sel_font{
+    font-family: MicrosoftYaHei;
+    font-size: 50px;
+    line-height: 18px;
+    letter-spacing: 3px;
+    color: #ece6ea;
+}
+.para_font_white{
+    font-family: MicrosoftYaHei;
+    font-size: 33px;
+    letter-spacing: 2px;
+    color: #ece6ea;
+    visibility: hidden;
+}
+.sel_button_font{
+    font-size: 33px;
+    font-family: MicrosoftYaHei;
+    letter-spacing: 2px;
+    color: #ece6ea;
+}
+.shop_title_font{
+    font-family: MicrosoftYaHei;
+    font-size: 60px;
+    line-height: 18px;
+    letter-spacing: 6px;
+    color: #353535;
+}
+.title_name_font{
+    font-family: Great Vibes;
+    font-size: 60px;
+    letter-spacing: 6px;
+    color: #353535;
+}
+.enter_shop_font{
+    font-family: MicrosoftYaHei;
+    font-size: 27px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #353535;
+}
+.shopDisplay_para_font{
+    font-family: MicrosoftYaHei;
+    font-size: 27px;
+    letter-spacing: 0;
+    color: #353535;
+}
+.special_month_font{
+    font-family: MicrosoftYaHei;
+    font-size: 60px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: #272526;
+}
+.special_font{
+    font-size: 30px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #272526;
+    font-family: MicrosoftYaHei;
+}
+.description_cross{
+    font-size: 27px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #272526;
+    font-family: MicrosoftYaHei;
+}
+.description_non_cross{
+    font-family: MicrosoftYaHei;
+    font-size: 27px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #e3113d;
+}
+.button_font{
+    font-size: 12px;
+    font-family: MicrosoftYaHei;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #9d999c;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+}
+.input_font{
+    font-size: 20px;
+    color: #9d999c;
+    padding-left: 5px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    font-family: MicrosoftYaHei;
+}
+.list_title{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #272526;
+    font-family: MicrosoftYaHei;
+    font-weight: 600;
+}
+.list_option{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0;
+    color: #797879;
+    font-family: MicrosoftYaHei;
+    margin: 10px 0;
+}
+.line_title{
+    font-size: 20px;
+    font-family: MicrosoftYaHei;
+    letter-spacing: 1px;
+    line-height: 18px;
+    color: #272526;
+}
+.line_content{
+    font-size: 20px;
+    line-height: 18px;
+    color: #423b98;
+    font-family: MicrosoftYaHei;
+    letter-spacing: 1px;
+}
+.cutline{
+    font-size: 20px;
+    line-height: 18px;
+    color: #272526;
+    font-family: MicrosoftYaHei;
+    letter-spacing: 1px;
+}
+.right_arrow_black{
+    width: 55px;
+    height: 35px;
+    background: url("../imageSource/right_arrow_black.png");
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    visibility: hidden;
+}
+
+.cover_left{
+    width: 27px;
+    height: 277px;
+    background: linear-gradient(right, rgba(255,255,255,0), rgba(243,224,211,1));
+    background: -webkit-linear-gradient(right, rgba(255,255,255,0), rgba(243,224,211,1));
+    background: -moz-linear-gradient(right, rgba(255,255,255,0), rgba(243,224,211,1));
+    visibility: hidden;
+    position: absolute;
+    top: 27px;
+    left: -17px;
+}
+.cover_right{
+    width: 27px;
+    height: 277px;
+    background: linear-gradient(left, rgba(255,255,255,0), rgba(243,224,211,1));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(243,224,211,1));
+    background: -moz-linear-gradient(left, rgba(255,255,255,0), rgba(243,224,211,1));
+    visibility: hidden;
+    position: absolute;
+    top: 27px;
+    left: 924px;
+}
+
+.toTop {
+    bottom: 50%;
+    cursor: pointer;
+    height: 86px;
+    width: 86px;
+    position: fixed;
+    right: 0;
+    background: url("../imageSource/toTop.png");
+}

@@ -1,0 +1,132 @@
+@media screen and (max-width: 1069px){
+    .point_1069{
+        clear: left;
+    }
+    #header .top .navi{
+        width: 99%;
+        margin: 0 auto;
+    }
+    .line{
+        width: 100%;
+    }
+    #header .bottom{
+        height: 40px;
+    }
+    #header .bottom .content{
+        width: 100%;
+        min-height: 500px;
+    }
+    #header .bottom .content .left{
+        float: left;
+        line-height: 42px;
+        font-size: 24px;
+        margin-left: 10px;
+    }
+    #header .bottom .content .right{
+        line-height: 48px;
+        float: right;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    #container .search_area {
+        width: 40rem;
+    }
+    #container .search_area .content .search img{
+        float: right;
+        position: absolute;
+        left: 85.4%;
+        top: 33%;
+    }
+    #container .search_area .content .search input{
+        height: 40px;
+        width: 500px;
+        font-size: 18px;
+    }
+    #container .search_area .content{
+        padding-top: 8rem;
+    }
+    #container .search_area .content .title .head{
+        font-size: 36px;
+    }
+    #container .search_area .content .title .body{
+        font-size: 18px
+    }
+    #container .search_area .content div{
+        margin: 2rem 0;
+    }
+    #container .back{
+        min-height: 600px;
+    }
+    #container .part_1 .menu{
+        max-width: 760px;
+    }
+    #container .part_1 .menu .sel{
+        margin: 25px 87px;
+    }
+    #container .part_3 .content .para{
+        display: block;
+        width: 692px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #container .part_4{
+        width: 100%;
+    }
+    #container .part_4 .container{
+        margin: 30px 0;
+    }
+    #container .part_4 .element{
+        display: block;
+        width: 70%;
+        margin: 46px auto;
+    }
+    #container .part_4 .element img{
+        width: 240px;
+    }
+    #container .part_4 .element .image{
+        float: left;
+        margin-right: 28px;
+    }
+    #container .part_4 .element .para{
+        width: 585px;
+        margin-left: 10px;
+    }
+    #container .part_5 .content{
+        width: 778px;
+    }
+    #container .part_6 .content .head{
+        font-size: 34px;
+    }
+    #container .part_6 .content .bottom{
+        font-size: 17px;
+    }
+    #container .part_6 .content .container {
+        position: absolute;
+        left: 5%;
+        top: 23%;
+    }
+    #container .part_6 .content .head h2{
+        font-weight: 400;
+        font-size: 35px;
+    }
+
+    #container .part_7 .image img{
+        display: none;
+    }
+    #container .part_7 .content{
+        width: 80%;
+        margin: 20px 10%;
+    }
+    #footer .content{
+        width: 90%;
+        margin: 0 3%;
+        padding-left: 3%;
+    }
+    #footer .content .middle .sel{
+        padding: 0 10% 0 0;
+    }
+    #footer .content .bottom_line{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,184 @@
+@media screen and (max-width: 736px) {
+    #header .top .navi .set_li{
+        /*display: inline-block;*/
+        float: left;
+        vertical-align: middle;
+        list-style: none;
+        height: 44px;
+        line-height: 40px;
+        box-sizing: border-box;
+        width: 0;
+    }
+    #container #background{
+        min-height: 320px;
+        background-image: url("..");
+    }
+    #header .top .navi{
+        margin: 0;
+    }
+    #header .top .navi .hiding{
+        display: none;
+    }
+    #header .top .navi .show{
+        display: block;
+        float: left;
+    }
+    #header .top .navi .right{
+        float: right;
+    }
+    #header .top #center{
+        margin: 0 45.45%;
+    }
+    #header .top #right{
+        margin: 0;
+    }
+    #header .top .navi{
+        width: 98%;
+        margin: 0 auto;
+    }
+    .line{
+        width: 100%;
+    }
+    #header .bottom .content{
+        width: 100%;
+        min-height: 500px;
+    }
+    #container .search_area{
+        position: inherit;
+    }
+    #container .search_area .content{
+        padding-top: 0;
+    }
+    #container .search_area {
+        width: 80%;
+    }
+    #container .search_area .content .search img{
+        float: right;
+        position: absolute;
+        left: 93.4%;
+        top: 33%;
+    }
+    #container .search_area .content .search input{
+        height: 40px;
+        width: 90%;
+        font-size: 18px;
+    }
+    #container .search_area .content .title .head{
+        font-size: 36px;
+    }
+    #container .search_area .content .title .body{
+        font-size: 18px
+    }
+    #container .search_area .content div{
+        margin: 2rem 0;
+    }
+    #container .back{
+        min-height: 600px;
+    }
+    .point_735{
+        clear: left;
+    }
+    #container .part_1 .menu{
+        width: 90%;
+        min-width: 620px;
+    }
+    #container .part_1 .menu .sel{
+        margin: 25px 19%;
+    }
+    #container .part_1 .menu .special{
+        width: 68px;
+    }
+    #container .part_4{
+        width: 100%;
+    }
+    #container .part_4 .element img{
+        width: 240px;
+    }
+    #container .part_4 .element{
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+    }
+    #container .part_4 .element .image{
+        float: none;
+        margin-right: 28px;
+    }
+    .part4_spe img{
+        width: 375px
+    }
+    #container .part_4 .element .para{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #container .part_4 .element .para h2,p,a{
+        padding-left: 10px;
+        font-weight: 400;
+    }
+    #container .part_5 .content{
+        width: 80%;
+    }
+    #container .part_6{
+        position: relative;
+    }
+    #container .part_6 .content{
+        height: 232px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    #container .part_6 .content .head{
+        font-size: 34px;
+    }
+    #container .part_6 .content .bottom{
+        font-size: 17px;
+    }
+    #container .part_7 .image img{
+        display: none;
+    }
+    #container .part_7 .content{
+        width: 80%;
+        margin: 20px 10%;
+    }
+    #footer .middle{
+        margin: 0 0 30px 0;
+    }
+    #footer .content{
+        width: 90%;
+        margin: 0 3%;
+        padding-left: 3%;
+    }
+    #footer .content .middle h5{
+        margin: 10px 0;
+    }
+    #footer .content .middle .top_sel{
+        border-top: 1px solid grey;
+    }
+    #footer .content .middle .sel{
+        float: none;
+        border-bottom: 1px grey solid;
+    }
+    #footer .content .middle .sel ul{
+        display: none;
+    }
+    #footer .content .bottom_line{
+        display: none;
+    }
+    #footer .bottom .copyright{
+        display: block;
+    }
+    #footer .middle .sel{
+        position: relative;
+    }
+    #footer .middle .sel .plus{
+        display: inline-block;
+    }
+    #footer .middle .sel h5{
+        display: inline-block;
+    }
+    #container .part_3 .content .para{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}

@@ -1,0 +1,4 @@
+这周先做轮播和准备考试 这是下周的作业
+将雪花飘落demo改成面向对象+canvas的demo
+https://www.cnblogs.com/tangyifeng/p/5253629.html
+
